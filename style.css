@@ -2,17 +2,47 @@
     font-family: sans-serif;
 }
 .header-container{
-    width: 1920px;
-    height: 850px;
+    width: 100%;
+    height: auto;
     display: flex;
     justify-content:space-evenly;
     padding: 100px;
-    margin: 30px; 
-    background-color: #eeb2bf ;
+    margin: auto; 
+    background-color: #f4ced6 ;
     align-items: center;
 }
 .header-text{
     font-size: 35px;
     align-items: center;
-
+   
 }
+ .btn-primary{
+    font-size:30px;
+    padding: 10px; 
+    border-radius: 10px;
+    background-color: #ea8da1;
+    border: none; 
+ }
+ .btn-primary:hover{
+    color:white;
+    background-color: #f68099;
+ }
+@media screen and (max-width: 576px )
+ {
+    .header-container{
+        padding: 20px; 
+        
+    }
+    .header-text{
+        font-size: 12px;
+    }
+    .header-container img{
+        max-width: 150px;
+    }
+    .btn-primary{
+        font-size: 15px; 
+        padding: 5px; 
+    }
+    
+}
+ 
